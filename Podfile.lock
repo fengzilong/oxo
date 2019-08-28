@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.8.0)
+  - PlainPing (0.5)
+  - Preferences (0.2.0)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8.0)
+  - PlainPing
+  - Preferences
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - PlainPing
+    - Preferences
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  PlainPing: 6b248b94d92be7ec0410952d1b09af43b9a39015
+  Preferences: ebc036a176a298cde835155c73251173768a2f8d
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 9325cce00c88931a23bcb260a3191c41a4058b29
+
+COCOAPODS: 1.5.3

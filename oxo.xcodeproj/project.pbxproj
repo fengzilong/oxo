@@ -7,20 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF16425A21BE387800423CBB /* StatusItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16425921BE387800423CBB /* StatusItemController.swift */; };
+		EF16425C21BE5A9A00423CBB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16425B21BE5A9A00423CBB /* Constants.swift */; };
+		EF16425E21BF617C00423CBB /* UploadStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16425D21BF617C00423CBB /* UploadStatus.swift */; };
+		EF16426021BF97C100423CBB /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16425F21BF97C100423CBB /* Utils.swift */; };
+		EF16426221BFAD2A00423CBB /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16426121BFAD2A00423CBB /* Preferences.swift */; };
 		EF74A55C21B8D64F00BF6985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF74A55B21B8D64F00BF6985 /* AppDelegate.swift */; };
-		EF74A55E21B8D64F00BF6985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF74A55D21B8D64F00BF6985 /* ViewController.swift */; };
 		EF74A56021B8D64F00BF6985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF74A55F21B8D64F00BF6985 /* Assets.xcassets */; };
 		EF74A56321B8D64F00BF6985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF74A56121B8D64F00BF6985 /* Main.storyboard */; };
+		EF74A56E21B9293200BF6985 /* ServicesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF74A56D21B9293200BF6985 /* ServicesProvider.swift */; };
+		EF74FAE921C101E300D7BB3B /* ImageFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF74FAE821C101E300D7BB3B /* ImageFormat.swift */; };
+		F17AF935FA55E574AB04DECF /* Pods_oxo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 081D2FCFCDE36BCC317FA6E5 /* Pods_oxo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		081D2FCFCDE36BCC317FA6E5 /* Pods_oxo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oxo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A8FC3E5324643164747EA50 /* Pods-oxo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oxo.release.xcconfig"; path = "Pods/Target Support Files/Pods-oxo/Pods-oxo.release.xcconfig"; sourceTree = "<group>"; };
+		EF16425921BE387800423CBB /* StatusItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusItemController.swift; sourceTree = "<group>"; };
+		EF16425B21BE5A9A00423CBB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EF16425D21BF617C00423CBB /* UploadStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadStatus.swift; sourceTree = "<group>"; };
+		EF16425F21BF97C100423CBB /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		EF16426121BFAD2A00423CBB /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		EF74A55821B8D64F00BF6985 /* oxo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oxo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF74A55B21B8D64F00BF6985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF74A55D21B8D64F00BF6985 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EF74A55F21B8D64F00BF6985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF74A56221B8D64F00BF6985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF74A56421B8D64F00BF6985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF74A56521B8D64F00BF6985 /* oxo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = oxo.entitlements; sourceTree = "<group>"; };
+		EF74A56D21B9293200BF6985 /* ServicesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesProvider.swift; sourceTree = "<group>"; };
+		EF74FAE821C101E300D7BB3B /* ImageFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFormat.swift; sourceTree = "<group>"; };
+		FED0E619B3E33183573F65D2 /* Pods-oxo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oxo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oxo/Pods-oxo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,17 +44,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F17AF935FA55E574AB04DECF /* Pods_oxo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11708C642A7612A4E21110EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				081D2FCFCDE36BCC317FA6E5 /* Pods_oxo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCEC2751F04AE6C0ABE40A72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FED0E619B3E33183573F65D2 /* Pods-oxo.debug.xcconfig */,
+				6A8FC3E5324643164747EA50 /* Pods-oxo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EF74A54F21B8D64F00BF6985 = {
 			isa = PBXGroup;
 			children = (
 				EF74A55A21B8D64F00BF6985 /* oxo */,
 				EF74A55921B8D64F00BF6985 /* Products */,
+				BCEC2751F04AE6C0ABE40A72 /* Pods */,
+				11708C642A7612A4E21110EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,11 +90,17 @@
 			isa = PBXGroup;
 			children = (
 				EF74A55B21B8D64F00BF6985 /* AppDelegate.swift */,
-				EF74A55D21B8D64F00BF6985 /* ViewController.swift */,
 				EF74A55F21B8D64F00BF6985 /* Assets.xcassets */,
 				EF74A56121B8D64F00BF6985 /* Main.storyboard */,
 				EF74A56421B8D64F00BF6985 /* Info.plist */,
 				EF74A56521B8D64F00BF6985 /* oxo.entitlements */,
+				EF74A56D21B9293200BF6985 /* ServicesProvider.swift */,
+				EF16425921BE387800423CBB /* StatusItemController.swift */,
+				EF16425B21BE5A9A00423CBB /* Constants.swift */,
+				EF16425D21BF617C00423CBB /* UploadStatus.swift */,
+				EF16425F21BF97C100423CBB /* Utils.swift */,
+				EF16426121BFAD2A00423CBB /* Preferences.swift */,
+				EF74FAE821C101E300D7BB3B /* ImageFormat.swift */,
 			);
 			path = oxo;
 			sourceTree = "<group>";
@@ -70,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF74A56821B8D64F00BF6985 /* Build configuration list for PBXNativeTarget "oxo" */;
 			buildPhases = (
+				F14384EC51742E1671DFF6DF /* [CP] Check Pods Manifest.lock */,
 				EF74A55421B8D64F00BF6985 /* Sources */,
 				EF74A55521B8D64F00BF6985 /* Frameworks */,
 				EF74A55621B8D64F00BF6985 /* Resources */,
+				C11F4303E4397F66B21334AF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +140,11 @@
 					EF74A55721B8D64F00BF6985 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -129,13 +178,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C11F4303E4397F66B21334AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-oxo/Pods-oxo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PlainPing/PlainPing.framework",
+				"${BUILT_PRODUCTS_DIR}/Preferences/Preferences.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlainPing.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Preferences.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oxo/Pods-oxo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F14384EC51742E1671DFF6DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-oxo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF74A55421B8D64F00BF6985 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF74A55E21B8D64F00BF6985 /* ViewController.swift in Sources */,
+				EF74FAE921C101E300D7BB3B /* ImageFormat.swift in Sources */,
+				EF16425C21BE5A9A00423CBB /* Constants.swift in Sources */,
+				EF16426221BFAD2A00423CBB /* Preferences.swift in Sources */,
+				EF74A56E21B9293200BF6985 /* ServicesProvider.swift in Sources */,
+				EF16425A21BE387800423CBB /* StatusItemController.swift in Sources */,
+				EF16425E21BF617C00423CBB /* UploadStatus.swift in Sources */,
 				EF74A55C21B8D64F00BF6985 /* AppDelegate.swift in Sources */,
+				EF16426021BF97C100423CBB /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,30 +361,38 @@
 		};
 		EF74A56921B8D64F00BF6985 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FED0E619B3E33183573F65D2 /* Pods-oxo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = oxo/oxo.entitlements;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = oxo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mo.oxo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		EF74A56A21B8D64F00BF6985 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A8FC3E5324643164747EA50 /* Pods-oxo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = oxo/oxo.entitlements;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = oxo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mo.oxo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;

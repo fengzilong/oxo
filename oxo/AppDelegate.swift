@@ -10,17 +10,17 @@ import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
+    let statusItem = StatusItemController.shared
 
-
+    @IBOutlet weak var statusMenu: NSMenu!
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        statusItem.setup(statusMenu)
+        NSApp.servicesProvider = ServicesProvider()
+        NSUpdateDynamicServices()
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
+        statusItem.teardown()
     }
-
-
 }
-
